@@ -10,7 +10,7 @@ pipeline {
     stages {
          stage('checkout') {
              steps {
-        git([url: 'https://github.com/arjunachari12/iac-demo', branch: 'master'])
+        git([url: 'https://github.com/sowmiar1/iac-demo', branch: 'master'])
 
            }
               
